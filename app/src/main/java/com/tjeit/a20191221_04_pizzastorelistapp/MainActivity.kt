@@ -1,6 +1,5 @@
 package com.tjeit.a20191221_04_pizzastorelistapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.tjeit.a20191221_04_pizzastorelistapp.datas.PizzaStore
 
