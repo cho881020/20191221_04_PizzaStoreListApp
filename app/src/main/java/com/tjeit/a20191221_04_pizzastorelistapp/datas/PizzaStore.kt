@@ -1,6 +1,8 @@
 package com.tjeit.a20191221_04_pizzastorelistapp.datas
 
-class PizzaStore(storeName:String, phoneNum:String, logoUrl:String) {
+import java.io.Serializable
+
+class PizzaStore(storeName:String, phoneNum:String, logoUrl:String) : Serializable {
 
     var storeName = storeName
     var phoneNum = phoneNum
