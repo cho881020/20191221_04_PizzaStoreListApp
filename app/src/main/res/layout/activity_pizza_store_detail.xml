@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/storeLogoImg"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@mipmap/ic_launcher"
@@ -26,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:orientation="vertical">
 
         <TextView
@@ -34,6 +36,7 @@
             android:text="가게이름" />
 
         <TextView
+            android:id="@+id/storeNameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="피자헛"
@@ -58,6 +61,7 @@
                     android:text="전화번호" />
 
                 <TextView
+                    android:id="@+id/storePhoneTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="010-1234-5678"
@@ -67,6 +71,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/callBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:text="전화" />
